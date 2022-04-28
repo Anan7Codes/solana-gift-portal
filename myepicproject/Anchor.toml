@@ -1,0 +1,17 @@
+[features]
+seeds = false
+[programs.devnet]
+myepicproject = "DP55efg1Ky7gzTFY2nKkHLxpsCEtbAD2zryJ967BWnrf"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/anand7u/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject"
+
+[test]
+startup_wait = 1000000
